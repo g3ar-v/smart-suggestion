@@ -476,7 +476,7 @@ func fetchOpenAI() (string, error) {
 	}
 
 	request := OpenAIRequest{
-		Model: "gpt-4o-mini",
+		Model: "deepseek/deepseek-v4-flash-0731",
 		Messages: []OpenAIMessage{
 			{Role: "system", Content: systemPrompt},
 			{Role: "user", Content: input},
